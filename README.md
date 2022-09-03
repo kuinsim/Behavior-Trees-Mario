@@ -1,8 +1,4 @@
-Suin Kim
-CS387-801
-Project 3
-
-In this project, I worked with a Java version of Super Mario. The goal of this project is to learn how to use Behavior Trees, which are very commonly used in computer games for defining the behavior of characters and groups of characters. Specifically, I implemented a controller that tries to collect as many coins as possible, kill as many enemies as possible, and finish the game using behavior trees.
+In this project, I worked with a Java version of Super Mario. I implemented a controller that tries to collect as many coins as possible, kill as many enemies as possible, and finish the game using behavior trees.
 
 I implemented my behavior tree as a package with various classes that define the behavior tree's conditions, actions, and composites. The condition and action classes implement the task class and serve as the nodes of the behavior tree. The sequence class implements the composite class and is used to pair conditions with actions in the behavior tree. I implemented selectors in my behavior tree controller class.
 
